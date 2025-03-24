@@ -13,11 +13,22 @@ class MainWindow : public QMainWindow
 {
     Q_OBJECT
 
+
 public:
     MainWindow(QWidget *parent = nullptr);
+
     ~MainWindow();
+
+
+
+     void initScreens();
+    void update();
 
 private:
     Ui::MainWindow *ui;
+
+public slots:
+    void logoScreen();
+
 };
 #endif // MAINWINDOW_H
