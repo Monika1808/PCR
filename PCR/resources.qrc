@@ -1,5 +1,23 @@
 <RCC>
     <qresource prefix="/">
         <file>images/meril_logo.png</file>
+        <file>images/userIcon_48.png</file>
+        <file>images/userIcon_72.png</file>
+        <file>images/pwdIcon_50.png</file>
+        <file>images/queMarkIcon_50.png</file>
+        <file>images/reportIcon_96.png</file>
+        <file>images/circleIcon_50.png</file>
+        <file>images/quetioMarkInCir_96.png</file>
+        <file>images/skipIcon_64.png</file>
+        <file>images/settingIcon_100.png</file>
+        <file>images/userMangIcon_100.png</file>
+        <file>images/detailReportIcon_96.png</file>
+        <file>images/logOutIcon_96.png</file>
+        <file>images/clockIcon_64.png</file>
+        <file>images/calenderIcon_50.png</file>
+        <file>images/toggleOnIcon_96.png</file>
+        <file>images/toggleOffIcon_96.png</file>
+        <file>images/toggleOffIcon_48.png</file>
+        <file>images/toggleOnIcon_48.png</file>
     </qresource>
 </RCC>

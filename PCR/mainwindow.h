@@ -19,16 +19,12 @@ public:
 
     ~MainWindow();
 
-
-
-     void initScreens();
-    void update();
-
 private:
     Ui::MainWindow *ui;
 
 public slots:
-    void logoScreen();
+    void loginScreen();
+
 
 };
 #endif // MAINWINDOW_H

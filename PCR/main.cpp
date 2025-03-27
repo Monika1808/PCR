@@ -1,8 +1,14 @@
 #include "mainwindow.h"
+#include "loginscreen.h"
+#include "testscreen.h"
+#include "syssettingscreen.h"
 
 #include <QApplication>
 
-MainWindow *m_LogoScreenPtr;
+MainWindow *logoScreenPtr;
+loginScreen *loginScreenPtr;
+testScreen *testScreenPtr;
+sysSettingScreen *sysSettingScreenPtr;
 
 
 int main(int argc, char *argv[])
@@ -11,11 +17,26 @@ int main(int argc, char *argv[])
     // MainWindow w;
     // w.show();
 
-   m_LogoScreenPtr = new MainWindow();
-   m_LogoScreenPtr->setWindowFlags(Qt::WindowFlags() | Qt::FramelessWindowHint);
-   m_LogoScreenPtr->showFullScreen();
 
+    //Logo Screen
+    logoScreenPtr = new MainWindow();
+    logoScreenPtr->setWindowFlags(Qt::WindowFlags() | Qt::FramelessWindowHint);
+    logoScreenPtr->showFullScreen();
 
+    //Login Screen
+    loginScreenPtr = new loginScreen();
+    loginScreenPtr->setWindowFlags(Qt::WindowFlags() | Qt::FramelessWindowHint);
+   // loginScreenPtr->showFullScreen();
+
+    //Test Screen
+    testScreenPtr = new testScreen();
+    testScreenPtr->setWindowFlags(Qt::WindowFlags() | Qt::FramelessWindowHint);
+   // testScreenPtr->showFullScreen();
+
+    //System Settings Screen
+    sysSettingScreenPtr = new sysSettingScreen();
+    sysSettingScreenPtr->setWindowFlags(Qt::WindowFlags() | Qt::FramelessWindowHint);
+   // sysSettingScreenPtr->showFullScreen();
 
 
 
@@ -23,8 +44,7 @@ int main(int argc, char *argv[])
     return a.exec();
 }
 
-void MainWindow::logoScreen()
-{
-  //  m_LogoScreenPtr->show();
-}
+
+
+
 
