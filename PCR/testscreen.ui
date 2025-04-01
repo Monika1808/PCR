@@ -310,9 +310,9 @@ background-color: rgb(220, 220, 220);</string>
     <property name="geometry">
      <rect>
       <x>5</x>
-      <y>85</y>
+      <y>82</y>
       <width>100</width>
-      <height>30</height>
+      <height>35</height>
      </rect>
     </property>
     <property name="font">
@@ -352,9 +352,9 @@ background-color: rgb(220, 220, 220);</string>
     <property name="geometry">
      <rect>
       <x>970</x>
-      <y>85</y>
+      <y>82</y>
       <width>100</width>
-      <height>30</height>
+      <height>35</height>
      </rect>
     </property>
     <property name="font">
@@ -385,7 +385,7 @@ background-color: rgb(220, 220, 220);</string>
      <string notr="true">background-color: rgb(255, 255, 255);</string>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="beforeTestStartPageA">
      <widget class="QLabel" name="reportAIconLabel">
@@ -432,12 +432,12 @@ border-radius: 20px;
        <string/>
       </property>
      </widget>
-     <widget class="QPushButton" name="moduleAScanQrPb">
+     <widget class="QPushButton" name="moduleACartridgePb">
       <property name="geometry">
        <rect>
-        <x>780</x>
+        <x>760</x>
         <y>910</y>
-        <width>150</width>
+        <width>180</width>
         <height>40</height>
        </rect>
       </property>
@@ -457,7 +457,7 @@ border-radius: 0px;
 </string>
       </property>
       <property name="text">
-       <string>Scan QR Code</string>
+       <string>Cartridge Details</string>
       </property>
      </widget>
      <widget class="QLabel" name="moduleAcir1Label">
@@ -647,7 +647,501 @@ border-radius: 15px;</string>
       </property>
      </widget>
     </widget>
-    <widget class="QWidget" name="page_2"/>
+    <widget class="QWidget" name="testStartA">
+     <widget class="QPushButton" name="a3_4Pb">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>130</y>
+        <width>93</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:pad, x1:0.06, y1:0.5, x2:1, y2:0.494, stop:0.363184 rgba(61, 90, 255, 255), stop:1 rgba(226, 226, 226, 255));
+color: rgb(255, 255, 255);
+border: 0px solid rgb(5, 30, 126);
+border-radius: 0px;</string>
+      </property>
+      <property name="text">
+       <string>A3 - 4</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="a7_8pb">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>310</y>
+        <width>93</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:pad, x1:0.06, y1:0.5, x2:1, y2:0.494, stop:0.363184 rgba(61, 90, 255, 255), stop:1 rgba(226, 226, 226, 255));
+color: rgb(255, 255, 255);
+border: 0px solid rgb(5, 30, 126);
+border-radius: 0px;
+</string>
+      </property>
+      <property name="text">
+       <string>A7 - 8</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="a1_2Pb">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>40</y>
+        <width>93</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:pad, x1:0.06, y1:0.5, x2:1, y2:0.494, stop:0.363184 rgba(61, 90, 255, 255), stop:1 rgba(226, 226, 226, 255));
+color: rgb(255, 255, 255);
+border: 0px solid rgb(5, 30, 126);
+border-radius: 0px;</string>
+      </property>
+      <property name="text">
+       <string>A1 - 2</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="a5_6pb">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>220</y>
+        <width>93</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:pad, x1:0.06, y1:0.5, x2:1, y2:0.494, stop:0.363184 rgba(61, 90, 255, 255), stop:1 rgba(226, 226, 226, 255));
+color: rgb(255, 255, 255);
+border: 0px solid rgb(5, 30, 126);
+border-radius: 0px;</string>
+      </property>
+      <property name="text">
+       <string>A5 - 6</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="moduleAStopPb">
+      <property name="geometry">
+       <rect>
+        <x>780</x>
+        <y>915</y>
+        <width>150</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(5, 30, 126);
+font:  12pt;
+color: #ffffff;
+border: 1px solid rgb(5, 30, 126);
+border-radius: 0px;
+</string>
+      </property>
+      <property name="text">
+       <string>Stop</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="moduleAcir1Label_2">
+      <property name="geometry">
+       <rect>
+        <x>32</x>
+        <y>920</y>
+        <width>30</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(37, 124, 255);
+border: 2px solid    rgb(37, 124, 255);
+border-radius: 15px;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="moduleAcir8Label_2">
+      <property name="geometry">
+       <rect>
+        <x>322</x>
+        <y>920</y>
+        <width>30</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(37, 124, 255);
+border: 2px solid    rgb(37, 124, 255);
+border-radius: 15px;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="moduleAcir5Label_2">
+      <property name="geometry">
+       <rect>
+        <x>196</x>
+        <y>920</y>
+        <width>30</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(37, 124, 255);
+border: 2px solid    rgb(37, 124, 255);
+border-radius: 15px;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="moduleBfooterLabel_3">
+      <property name="geometry">
+       <rect>
+        <x>17</x>
+        <y>915</y>
+        <width>360</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(220, 220, 220);
+border: 1px solid #ffffff;
+border-radius: 20px;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="moduleAcir4Label_2">
+      <property name="geometry">
+       <rect>
+        <x>155</x>
+        <y>920</y>
+        <width>30</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(37, 124, 255);
+border: 2px solid    rgb(37, 124, 255);
+border-radius: 15px;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="moduleAcir6Label_2">
+      <property name="geometry">
+       <rect>
+        <x>237</x>
+        <y>920</y>
+        <width>30</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(37, 124, 255);
+border: 2px solid    rgb(37, 124, 255);
+border-radius: 15px;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="moduleAcir7Label_2">
+      <property name="geometry">
+       <rect>
+        <x>278</x>
+        <y>920</y>
+        <width>30</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(37, 124, 255);
+border: 2px solid    rgb(37, 124, 255);
+border-radius: 15px;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="moduleAcir2Label_2">
+      <property name="geometry">
+       <rect>
+        <x>73</x>
+        <y>920</y>
+        <width>30</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(37, 124, 255);
+border: 2px solid    rgb(37, 124, 255);
+border-radius: 15px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="moduleAcir3Label_2">
+      <property name="geometry">
+       <rect>
+        <x>114</x>
+        <y>920</y>
+        <width>30</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(37, 124, 255);
+border: 2px solid    rgb(37, 124, 255);
+border-radius: 15px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="a7_8TxtPb">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>310</y>
+        <width>730</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(220, 220, 220);
+color: rgb(69, 143, 255);
+border: 1px solid rgb(220, 220, 220);
+border-radius: 0px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="a1_2TxtPb">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>40</y>
+        <width>730</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(220, 220, 220);
+color: rgb(69, 143, 255);
+border: 1px solid rgb(220, 220, 220);
+border-radius: 0px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="a5_6TxtPb">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>220</y>
+        <width>730</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(220, 220, 220);
+color: rgb(69, 143, 255);
+border: 1px solid rgb(220, 220, 220);
+border-radius: 0px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="a3_4TxtPb">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>130</y>
+        <width>730</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(220, 220, 220);
+color: rgb(69, 143, 255);
+border: 1px solid rgb(220, 220, 220);
+border-radius: 0px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="newTestPbA">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>915</y>
+        <width>150</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(61, 90, 255, 255);
+font:  12pt;
+color: #ffffff;
+border: 1px solid rgba(61, 90, 255, 255);
+border-radius: 0px;
+</string>
+      </property>
+      <property name="text">
+       <string>New Test</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="viewResultPbA">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>915</y>
+        <width>150</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(180,180,180, 255);
+font:  12pt;
+color: #ffffff;
+border: 1px solid rgba(180,180,180, 255);
+border-radius: 0px;
+</string>
+      </property>
+      <property name="text">
+       <string>View Results</string>
+      </property>
+     </widget>
+     <zorder>a3_4Pb</zorder>
+     <zorder>a7_8pb</zorder>
+     <zorder>a1_2Pb</zorder>
+     <zorder>a5_6pb</zorder>
+     <zorder>moduleAStopPb</zorder>
+     <zorder>moduleBfooterLabel_3</zorder>
+     <zorder>moduleAcir4Label_2</zorder>
+     <zorder>moduleAcir6Label_2</zorder>
+     <zorder>moduleAcir7Label_2</zorder>
+     <zorder>moduleAcir2Label_2</zorder>
+     <zorder>moduleAcir3Label_2</zorder>
+     <zorder>moduleAcir8Label_2</zorder>
+     <zorder>moduleAcir1Label_2</zorder>
+     <zorder>moduleAcir5Label_2</zorder>
+     <zorder>a7_8TxtPb</zorder>
+     <zorder>a1_2TxtPb</zorder>
+     <zorder>a5_6TxtPb</zorder>
+     <zorder>a3_4TxtPb</zorder>
+     <zorder>newTestPbA</zorder>
+     <zorder>viewResultPbA</zorder>
+    </widget>
    </widget>
    <widget class="QStackedWidget" name="moduleBstkWidget">
     <property name="geometry">
@@ -690,12 +1184,12 @@ border-radius: 15px;</string>
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="QPushButton" name="moduleBScanQrPb">
+     <widget class="QPushButton" name="moduleBCartridgePb">
       <property name="geometry">
        <rect>
-        <x>780</x>
+        <x>760</x>
         <y>910</y>
-        <width>150</width>
+        <width>180</width>
         <height>40</height>
        </rect>
       </property>
@@ -715,7 +1209,7 @@ border-radius: 0px;
 </string>
       </property>
       <property name="text">
-       <string>Scan QR Code</string>
+       <string>Cartridge Details</string>
       </property>
      </widget>
      <widget class="QLabel" name="moduleBfooterLabel">
@@ -913,13 +1407,13 @@ border-radius: 15px;</string>
      </widget>
     </widget>
     <widget class="QWidget" name="testStartB">
-     <widget class="QPushButton" name="moduleAScanQrPb_3">
+     <widget class="QPushButton" name="moduleBStopPb">
       <property name="geometry">
        <rect>
         <x>780</x>
-        <y>910</y>
+        <y>915</y>
         <width>150</width>
-        <height>40</height>
+        <height>50</height>
        </rect>
       </property>
       <property name="font">
@@ -941,7 +1435,7 @@ border-radius: 0px;
        <string>Stop</string>
       </property>
      </widget>
-     <widget class="QLabel" name="moduleAcir5Label_2">
+     <widget class="QLabel" name="moduleBcir5Label_2">
       <property name="geometry">
        <rect>
         <x>190</x>
@@ -966,7 +1460,7 @@ border-radius: 15px;
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="QLabel" name="moduleAcir6Label_2">
+     <widget class="QLabel" name="moduleBcir6Label_2">
       <property name="geometry">
        <rect>
         <x>231</x>
@@ -988,7 +1482,7 @@ border-radius: 15px;
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="QLabel" name="moduleAcir8Label_2">
+     <widget class="QLabel" name="moduleBcir8Label_2">
       <property name="geometry">
        <rect>
         <x>316</x>
@@ -1013,7 +1507,7 @@ border-radius: 15px;
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="QLabel" name="moduleAfooterLabel_3">
+     <widget class="QLabel" name="moduleBfooterLabel_2">
       <property name="geometry">
        <rect>
         <x>11</x>
@@ -1032,7 +1526,7 @@ border-radius: 20px;
        <string/>
       </property>
      </widget>
-     <widget class="QLabel" name="moduleAcir3Label_2">
+     <widget class="QLabel" name="moduleBcir3Label_2">
       <property name="geometry">
        <rect>
         <x>108</x>
@@ -1056,7 +1550,7 @@ border-radius: 15px;</string>
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="QLabel" name="moduleAcir4Label_2">
+     <widget class="QLabel" name="moduleBcir4Label_2">
       <property name="geometry">
        <rect>
         <x>149</x>
@@ -1078,7 +1572,7 @@ border-radius: 15px;
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="QLabel" name="moduleAcir7Label_2">
+     <widget class="QLabel" name="moduleBcir7Label_2">
       <property name="geometry">
        <rect>
         <x>272</x>
@@ -1100,7 +1594,7 @@ border-radius: 15px;
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="QLabel" name="moduleAcir1Label_2">
+     <widget class="QLabel" name="moduleBcir1Label_2">
       <property name="geometry">
        <rect>
         <x>26</x>
@@ -1122,7 +1616,7 @@ border-radius: 15px;
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="QLabel" name="moduleAcir2Label_2">
+     <widget class="QLabel" name="moduleBcir2Label_2">
       <property name="geometry">
        <rect>
         <x>67</x>
@@ -1143,111 +1637,7 @@ border-radius: 15px;</string>
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="QLabel" name="B1_2Label">
-      <property name="geometry">
-       <rect>
-        <x>120</x>
-        <y>40</y>
-        <width>730</width>
-        <height>50</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>13</pointsize>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(220, 220, 220);
-color: rgb(69, 143, 255);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="QLabel" name="B3_4Label">
-      <property name="geometry">
-       <rect>
-        <x>120</x>
-        <y>129</y>
-        <width>730</width>
-        <height>50</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>13</pointsize>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(220, 220, 220);
-color: rgb(69, 143, 255);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="QLabel" name="B5_6Label">
-      <property name="geometry">
-       <rect>
-        <x>120</x>
-        <y>220</y>
-        <width>730</width>
-        <height>50</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>13</pointsize>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(220, 220, 220);
-color: rgb(69, 143, 255);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="QLabel" name="B7_8Label">
-      <property name="geometry">
-       <rect>
-        <x>120</x>
-        <y>310</y>
-        <width>730</width>
-        <height>50</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>13</pointsize>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(220, 220, 220);
-color: rgb(69, 143, 255);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="b12Pb">
+     <widget class="QPushButton" name="b1_2Pb">
       <property name="geometry">
        <rect>
         <x>25</x>
@@ -1269,10 +1659,10 @@ border: 0px solid rgb(5, 30, 126);
 border-radius: 0px;</string>
       </property>
       <property name="text">
-       <string>B1-2</string>
+       <string>B1 - 2</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="b34Pb">
+     <widget class="QPushButton" name="b3_4Pb">
       <property name="geometry">
        <rect>
         <x>25</x>
@@ -1294,10 +1684,10 @@ border: 0px solid rgb(5, 30, 126);
 border-radius: 0px;</string>
       </property>
       <property name="text">
-       <string>B3-4</string>
+       <string>B3 - 4</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="b56pb">
+     <widget class="QPushButton" name="b5_6Pb">
       <property name="geometry">
        <rect>
         <x>25</x>
@@ -1319,10 +1709,10 @@ border: 0px solid rgb(5, 30, 126);
 border-radius: 0px;</string>
       </property>
       <property name="text">
-       <string>B5-6</string>
+       <string>B5 - 6</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="b78pb">
+     <widget class="QPushButton" name="b7_8Pb">
       <property name="geometry">
        <rect>
         <x>25</x>
@@ -1345,35 +1735,179 @@ border-radius: 0px;
 </string>
       </property>
       <property name="text">
-       <string>B7-8</string>
+       <string>B7 - 8</string>
       </property>
      </widget>
-     <zorder>moduleAScanQrPb_3</zorder>
-     <zorder>moduleAfooterLabel_3</zorder>
-     <zorder>moduleAcir3Label_2</zorder>
-     <zorder>moduleAcir4Label_2</zorder>
-     <zorder>moduleAcir7Label_2</zorder>
-     <zorder>moduleAcir1Label_2</zorder>
-     <zorder>moduleAcir2Label_2</zorder>
-     <zorder>moduleAcir8Label_2</zorder>
-     <zorder>moduleAcir6Label_2</zorder>
-     <zorder>moduleAcir5Label_2</zorder>
-     <zorder>B1_2Label</zorder>
-     <zorder>B3_4Label</zorder>
-     <zorder>B5_6Label</zorder>
-     <zorder>B7_8Label</zorder>
-     <zorder>b12Pb</zorder>
-     <zorder>b34Pb</zorder>
-     <zorder>b56pb</zorder>
-     <zorder>b78pb</zorder>
+     <widget class="QPushButton" name="b1_2TxtPb">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>40</y>
+        <width>730</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(220, 220, 220);
+color: rgb(69, 143, 255);
+border: 1px solid rgb(220, 220, 220);
+border-radius: 0px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="b3_4TxtPb">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>130</y>
+        <width>730</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(220, 220, 220);
+color: rgb(69, 143, 255);
+border: 1px solid rgb(220, 220, 220);
+border-radius: 0px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="b5_6TxtPb">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>220</y>
+        <width>730</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(220, 220, 220);
+color: rgb(69, 143, 255);
+border: 1px solid rgb(220, 220, 220);
+border-radius: 0px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="b7_8TxtPb">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>310</y>
+        <width>730</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(220, 220, 220);
+color: rgb(69, 143, 255);
+border: 1px solid rgb(220, 220, 220);
+border-radius: 0px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="newTestPbB">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>915</y>
+        <width>150</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(61, 90, 255, 255);
+font:  12pt;
+color: #ffffff;
+border: 1px solid rgba(61, 90, 255, 255);
+border-radius: 0px;
+</string>
+      </property>
+      <property name="text">
+       <string>New Test</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="viewResultPbB">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>915</y>
+        <width>150</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(180,180,180, 255);
+font:  12pt;
+color: #ffffff;
+border: 1px solid rgba(180,180,180, 255);
+border-radius: 0px;
+</string>
+      </property>
+      <property name="text">
+       <string>View Results</string>
+      </property>
+     </widget>
+     <zorder>moduleBStopPb</zorder>
+     <zorder>moduleBfooterLabel_2</zorder>
+     <zorder>moduleBcir3Label_2</zorder>
+     <zorder>moduleBcir4Label_2</zorder>
+     <zorder>moduleBcir7Label_2</zorder>
+     <zorder>moduleBcir1Label_2</zorder>
+     <zorder>moduleBcir2Label_2</zorder>
+     <zorder>moduleBcir8Label_2</zorder>
+     <zorder>moduleBcir6Label_2</zorder>
+     <zorder>moduleBcir5Label_2</zorder>
+     <zorder>b1_2Pb</zorder>
+     <zorder>b3_4Pb</zorder>
+     <zorder>b5_6Pb</zorder>
+     <zorder>b7_8Pb</zorder>
+     <zorder>b1_2TxtPb</zorder>
+     <zorder>b3_4TxtPb</zorder>
+     <zorder>b5_6TxtPb</zorder>
+     <zorder>b7_8TxtPb</zorder>
+     <zorder>newTestPbB</zorder>
+     <zorder>viewResultPbB</zorder>
     </widget>
    </widget>
-   <widget class="QLabel" name="hiv00Label">
+   <widget class="QLabel" name="hiv00TxtLabel">
     <property name="geometry">
      <rect>
       <x>1100</x>
       <y>85</y>
-      <width>411</width>
+      <width>400</width>
       <height>30</height>
      </rect>
     </property>
@@ -1390,39 +1924,13 @@ border-radius: 0px;
      <string>  HIV000</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>1759</x>
-      <y>85</y>
-      <width>150</width>
-      <height>30</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>13</pointsize>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(255, 134, 53);
-background-color: rgba(255, 186, 137,100);</string>
-    </property>
-    <property name="text">
-     <string>  2-way pipe</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-   </widget>
-   <widget class="QLabel" name="selectLabel">
+   <widget class="QPushButton" name="selectPbB">
     <property name="geometry">
      <rect>
       <x>1597</x>
-      <y>85</y>
-      <width>120</width>
-      <height>30</height>
+      <y>82</y>
+      <width>130</width>
+      <height>35</height>
      </rect>
     </property>
     <property name="font">
@@ -1433,13 +1941,109 @@ background-color: rgba(255, 186, 137,100);</string>
     </property>
     <property name="styleSheet">
      <string notr="true">color: rgb(28, 165, 33);
-background-color: rgba(91, 212, 16,100);</string>
+background-color: rgba(91, 212, 16,100);
+border: 1px solid rgba(91,212,16,100);
+border-radius: 1px;
+</string>
     </property>
     <property name="text">
-     <string>  Select</string>
+     <string>    Select</string>
     </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
+    <property name="icon">
+     <iconset resource="resources.qrc">
+      <normaloff>:/images/downArrowIcon_48.png</normaloff>:/images/downArrowIcon_48.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="twoWayPbB">
+    <property name="geometry">
+     <rect>
+      <x>1759</x>
+      <y>82</y>
+      <width>150</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 134, 53);
+background-color: rgba(255, 186, 137,100);
+border: 1px solid rgba(255, 186, 137,100);
+border-radius: 1px;</string>
+    </property>
+    <property name="text">
+     <string>2-way pipe</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="selectPbA">
+    <property name="geometry">
+     <rect>
+      <x>614</x>
+      <y>82</y>
+      <width>130</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(28, 165, 33);
+background-color: rgba(91, 212, 16,100);
+border: 1px solid rgba(91,212,16,100);
+border-radius: 1px;
+</string>
+    </property>
+    <property name="text">
+     <string>    Select</string>
+    </property>
+    <property name="icon">
+     <iconset resource="resources.qrc">
+      <normaloff>:/images/downArrowIcon_48.png</normaloff>:/images/downArrowIcon_48.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="twoWayPbA">
+    <property name="geometry">
+     <rect>
+      <x>776</x>
+      <y>82</y>
+      <width>150</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 134, 53);
+background-color: rgba(255, 186, 137,100);
+border: 1px solid rgba(255, 186, 137,100);
+border-radius: 1px;</string>
+    </property>
+    <property name="text">
+     <string>2-way pipe</string>
     </property>
    </widget>
   </widget>

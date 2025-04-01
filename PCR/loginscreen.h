@@ -15,9 +15,6 @@ public:
     explicit loginScreen(QWidget *parent = nullptr);
     ~loginScreen();
 
-    //set date & time
-    void setDateTime();
-
 
 private slots:
     void on_loginPb_clicked();
@@ -29,6 +26,8 @@ private slots:
 
 private:
     Ui::loginScreen *ui;
+    //set date & time
+    void setDateTime();
 
 
     //checkUser credentials

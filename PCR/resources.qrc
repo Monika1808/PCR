@@ -19,5 +19,6 @@
         <file>images/toggleOffIcon_96.png</file>
         <file>images/toggleOffIcon_48.png</file>
         <file>images/toggleOnIcon_48.png</file>
+        <file>images/downArrowIcon_48.png</file>
     </qresource>
 </RCC>

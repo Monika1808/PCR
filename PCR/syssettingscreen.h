@@ -20,6 +20,7 @@ private slots:
 
 private:
     Ui::sysSettingScreen *ui;
+    void setDateTime();
 };
 
 #endif // SYSSETTINGSCREEN_H

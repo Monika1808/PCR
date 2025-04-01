@@ -6,6 +6,9 @@
 #include <qdebug.h>
 #include<QMessageBox>
 #include "extern.h"
+#include "testscreen.h"
+#include "ui_testscreen.h"
+#include "define.h"
 
 
 loginScreen::loginScreen(QWidget *parent)
@@ -27,6 +30,7 @@ void loginScreen:: setDateTime()
     ui->dateLabel->setText(currDate);
     ui->timeLabel->setText(currTime);
 
+
     // qDebug() << "Current date is: " << currDate;
     // qDebug() << "Current time is: " << currTime;
 }
@@ -46,13 +50,23 @@ void loginScreen:: checkUser()
 
     if((userId == "admin") && (userPwd == "123"))
     {
+        /*show test Screen */
+        testScreenPtr->ui->moduleAstkWidget->setCurrentIndex(BEFORE_TEST_START_PAGE_A);
+        testScreenPtr->ui->selectPbA->hide();
+        testScreenPtr->ui->twoWayPbA->hide();
+
+        testScreenPtr->ui->moduleBstkWidget->setCurrentIndex(BEFORE_TEST_START_PAGE_B);
+        testScreenPtr->ui->selectPbB->hide();
+        testScreenPtr->ui->twoWayPbB->hide();
+        testScreenPtr->ui->hiv00TxtLabel->hide();
+
         testScreenPtr->show();
         ui->nameLineEdit->clear();
         ui->pwdLineEdit->clear();
     }
     else
     {
-        QMessageBox::warning(nullptr, "Error!", "Incorrect UserId or password!");
+        QMessageBox::warning(this, "Error!", "Incorrect UserId or password!");
     }
 }
 

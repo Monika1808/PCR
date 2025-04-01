@@ -12,6 +12,7 @@ SOURCES += \
     loginscreen.cpp \
     main.cpp \
     mainwindow.cpp \
+    sampleiddiaglog.cpp \
     syssettingscreen.cpp \
     testscreen.cpp
 
@@ -20,12 +21,14 @@ HEADERS += \
     extern.h \
     loginscreen.h \
     mainwindow.h \
+    sampleiddiaglog.h \
     syssettingscreen.h \
     testscreen.h
 
 FORMS += \
     loginscreen.ui \
     mainwindow.ui \
+    sampleiddiaglog.ui \
     syssettingscreen.ui \
     testscreen.ui
 
